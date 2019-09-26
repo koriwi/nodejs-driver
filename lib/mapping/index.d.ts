@@ -155,6 +155,9 @@ export namespace mapping {
     interface QueryOperator {
 
     }
+    function contains(x: any): QueryOperator;
+
+    function containsKey(x: any): QueryOperator;
 
     function in_(arr: any): QueryOperator;
 
